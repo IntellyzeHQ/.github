@@ -1,0 +1,17 @@
+name: Bug
+description: Something broken
+labels: ["type:bug"]
+body:
+  - type: textarea
+    id: expected
+    attributes: { label: Expected }
+  - type: textarea
+    id: actual
+    attributes: { label: Actual }
+  - type: textarea
+    id: repro
+    attributes: { label: Repro steps }
+  - type: input
+    id: env
+    attributes: { label: Env, placeholder: dev/local/stage }
+
