@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+This is a root repo for this project.
+
 <!--
 
 **Here are some ideas to get you started:**
