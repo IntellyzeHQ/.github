@@ -2,20 +2,9 @@ name: Feature
 description: Add or improve a feature
 labels: ["type:feature"]
 body:
-  - type: input
-    id: summary
-    attributes: { label: Summary, placeholder: One sentence }
-    validations: { required: true }
   - type: textarea
     id: background
     attributes: { label: Background / Why }
-  - type: checkboxes
-    id: scope
-    attributes:
-      label: Scope
-      options:
-        - label: In-scope
-        - label: Out-of-scope
   - type: textarea
     id: acceptance
     attributes:
